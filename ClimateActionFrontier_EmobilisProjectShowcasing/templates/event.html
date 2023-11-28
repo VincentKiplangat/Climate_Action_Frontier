@@ -1,0 +1,247 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+{% block title %}
+	event
+{% endblock %}
+
+
+{% block content %}
+
+            <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>Event</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="home.html">Home</a></li>
+                                <li>Event</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Event  section Start -->
+                <section class="event-wrap ptb-100">
+                    <div class="container">
+                        <div class="row gx-5">
+                            <div class="col-xl-8">
+                                <form action="event.html#" class="event-search-form">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="start_date">Start Date</label>
+                                                <input type="date" name="start_date" id="start_date">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="end_date">End Date</label>
+                                                <input type="date" name="start_date" id="end_date">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="event_type">Event Type</label>
+                                                <select name="event_type" id="event_type">
+                                                    <option value="1">Rally</option>
+                                                    <option value="2">Raise Fund</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <button type="submit" class="btn style1 w-100 d-block">Find Event</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/project/project-1.jpg" alt="Image">
+                                                <span class="event-date">22 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Developing Low Carbon</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipi scing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>352 Waldeck Street, Abbott</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>8:00 am - 5:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/event/event-2.jpg" alt="Image">
+                                                <span class="event-date">15 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Encourage For Green City</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>16 Devils Hill Road, Jackson</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>10:00 am - 3:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/event/event-3.jpg" alt="Image">
+                                                <span class="event-date">15 Aug, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Stop Deforestation</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>19 Colonial Drive, Houston</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>9:00 am - 2:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/event/event-4.jpg" alt="Image">
+                                                <span class="event-date">17 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Reduce CFC Gas</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>Abbott, Gottlieb and Watsica</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>8:00 am - 5:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/event/event-5.jpg" alt="Image">
+                                                <span class="event-date">17 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Stop Deforestation</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>Abbott, Gottlieb and Watsica</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>8:00 am - 5:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="event-card style5">
+                                            <div class="event-img">
+                                                <img src="assets/img/event/event-6.jpg" alt="Image">
+                                                <span class="event-date">17 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info">
+                                                <h3><a href="event-details.html">Reduce Air Pollution</a></h3>
+                                                <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sollicitudin consec. </p>
+                                                <ul class="event-metainfo list-style">
+                                                    <li><a href="event.html"><i class="ri-map-pin-line"></i>Abbott, Gottlieb and Watsica</a></li>
+                                                    <li><a href="event.html"><i class="ri-time-line"></i>8:00 am - 5:00 pm</a></li>
+                                                </ul>
+                                                <a href="event-details.html" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="page-nav list-style">
+                                    <li><a href="event.html"><i class="flaticon-left-arrow"></i></a></li>
+                                    <li><a class="active" href="event.html">1</a></li>
+                                    <li><a href="event.html">2</a></li>
+                                    <li><a href="event.html">3</a></li>
+                                    <li><a href="event.html"><i class="flaticon-right-arrow"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="sidebar">
+                                    <div class="sidebar-widget popular-post">
+                                        <h4>Recent Events</h4>
+                                        <div class="popular-post-widget">
+                                            <div class="pp-post-item">
+                                                <a href="event-details.html" class="pp-post-img">
+                                                    <img src="assets/img/blog/post-thumb-2.jpg" alt="Image">
+                                                </a>
+                                                <div class="pp-post-info">
+                                                    <h6>
+                                                        <a href="blog-details-no-sidebar.html">
+                                                            Rally Against Industrail Pollution
+                                                        </a>
+                                                    </h6>
+                                                    <a href="posts-by-date.html" class="pp-post-date"><i class="ri-calendar-todo-line"></i>Jul 17,  2022</a>
+                                                </div>
+                                            </div>
+                                            <div class="pp-post-item">
+                                                <a href="event-details.html" class="pp-post-img">
+                                                    <img src="assets/img/blog/post-thumb-3.jpg" alt="Image">
+                                                </a>
+                                                <div class="pp-post-info">
+                                                    <h6>
+                                                        <a href="blog-details-no-sidebar.html">
+                                                            Raise Fund For Floods Affected People
+                                                        </a>
+                                                    </h6>
+                                                    <a href="posts-by-date.html" class="pp-post-date"><i class="ri-calendar-todo-line"></i>May 15,   2022</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-widget style2">
+                                        <div class="contact-widget bg-f">
+                                            <h3>Let's Work Together</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo tenetur sed quidem. Suscipit, doloribus?</p>
+                                            <a href="contact.html" class="btn style1">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-widget">
+                                        <h4>Event Registration</h4>    
+                                        <form action="event.html#" class="register-widget">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" placeholder="Phone">
+                                            </div>
+                                            <div class="form-group">
+                                                <select>
+                                                    <option value="0" data-display="Select Event">Select Event</option>
+                                                    <option value="1">Climate Change Rally</option>
+                                                    <option value="2">Save Animal Merch</option>
+                                                </select>
+                                            </div>
+                                            <button type="submit" class="btn style1 w-100 d-block">Register Now</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Event  section End -->
+
+            </div>
+            <!-- Content wrapper end -->
+
+            {% endblock %}
